@@ -1,0 +1,63 @@
+1. Cari nilai KPK 3 dan 4
+    Algoritma: - Temukan faktor terbesar yang sama antara dua angka (FPB).
+               - Hitung KPK dengan rumus:
+    Pseudecode: 1. Mulai
+                2. Input i = 3, y = 4
+                3. Tentukan FPB dari i dan y menggunakan algoritma Euclid:
+                4. Hitung KPK: (i * y) / FPB
+                5. Print hasil KPK
+                6. Selesai
+
+2. Fungsi untuk menukar posisi dua variabel x dan y, dengan kasus : 
+Ada 2 buah: manggis dan pisang. Manggis di piring 1, Pisang di piring 2. Piring 3 kosong.
+   Algoritma: - Gunakan piring ketiga sebagai tempat sementara.
+              - Pindahkan manggis dari piring 1 ke piring 3.
+              - Pindahkan pisang dari piring 2 ke piring 1.
+              - Pindahkan manggis dari piring 3 ke piring 2.
+Pseudecode: 1. Mulai
+            2. Input x = "Manggis" (piring 1), y = "Pisang" (piring 2)
+            4. Set x = y
+            5. Set y = x
+            6. Print nilai x dan y setelah ditukar
+            7. Selesai
+
+3. Diketahui sebuah segitiga memiliki ukuran sebagai berikut:
+Alas 25, Tinggi 30
+Hitung luas dari segitiga tersebut.
+  Algoritma:- Masukkan nilai alas dan tinggi
+            - Hitung luas segitiga dengan rumus alas*tinggi/2
+            - Tampilkan hasil perhitungan
+
+  Pseudecode: 1. Input alas = 25, tinggi = 30
+              2. Hitung luas segitiga: Luas = (alas * tinggi) / 2
+              3. Print hasil luas
+              4. Selesai
+
+4.  Tentukan algoritma dan pseudocode luas jajar genjang (panjang = 5, tinggi = 3) 
+   Algoritma: - Hitung luas jajar genjang dengan rumus panjang*tinggi
+              - Cetak hasil perhitungan luas jajar genjang
+
+  Pseudecode: 1. Mulai
+              2. Input panjang = 5, tinggi = 3
+              3. Hitung luas jajar genjang: Luas = panjang * tinggi
+              4. Print hasil luas
+              5. Selesai
+5. Tentukan algoritma dan pseudocode volume tabung (jari-jari = 3, tinggi = 5) 
+Algoritma: - Masukkan jari" tabung= 3 dan tinggi= 5
+           - Hitung volume tabung menggunakan rumus Volume = π * (jari-jari^2) * tinggi
+           - Cetak hasil perhitungan volume tabung
+
+Pseudecode: 1. Input jari-jari = 3, tinggi = 5
+            2. Hitung volume tabung: Volume = pi * (jari-jari^2) * tinggi
+            3. Print hasil volume
+
+6. Tentukan algoritma dan pseudocode volume kerucut (diameter = 5, tinggi = 4) 
+Algoritma: - Masukkan diameter dan tinggi kerucut
+           - Hitung jari" kerucut menggunakan rumus diameter/2
+           - Hitung volume kerucut menggunakan rumus (1/3) * π * (jari-jari^2) * tinggi
+           - Cetak hasil perhitungan volume kerucut
+
+Pseudecode: 1. Input diameter = 5, tinggi = 4
+            2. Hitung jari-jari: jari-jari = diameter / 2
+            3. Hitung volume kerucut: Volume = (1/3) * π * (jari-jari^2) * tinggi
+            4. Print hasil volume
